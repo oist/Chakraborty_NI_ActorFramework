@@ -18,30 +18,22 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
-				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 			</Item>
 			<Item Name="Actor Framework.lvlibp" Type="LVLibp" URL="../../../Actor Framework.lvlibp">
 				<Item Name="Messages" Type="Folder">
-					<Item Name="Message.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message/Message.lvclass"/>
-					<Item Name="Stop Msg.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Stop Msg/Stop Msg.lvclass"/>
-					<Item Name="Last Ack.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/LastAck/Last Ack.lvclass"/>
-					<Item Name="Launch Nested Actor Msg.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Launch Nested Actor Msg/Launch Nested Actor Msg.lvclass"/>
+					<Item Name="Message.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/Message/Message.lvclass"/>
+					<Item Name="Stop Msg.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/Stop Msg/Stop Msg.lvclass"/>
+					<Item Name="Last Ack.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/LastAck/Last Ack.lvclass"/>
+					<Item Name="Launch Nested Actor Msg.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/Launch Nested Actor Msg/Launch Nested Actor Msg.lvclass"/>
 				</Item>
-				<Item Name="Actor.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Actor/Actor.lvclass"/>
-				<Item Name="Message Priority Queue.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Priority Queue/Message Priority Queue.lvclass"/>
-				<Item Name="Message Enqueuer.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Enqueuer/Message Enqueuer.lvclass"/>
-				<Item Name="Message Dequeuer.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Dequeuer/Message Dequeuer.lvclass"/>
-				<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Queue/Message Queue.lvclass"/>
-				<Item Name="Init Actor Queues FOR TESTING ONLY.vi" Type="VI" URL="../../../Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Actor/Init Actor Queues FOR TESTING ONLY.vi"/>
+				<Item Name="Message Priority Queue.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/Message Priority Queue/Message Priority Queue.lvclass"/>
+				<Item Name="Message Enqueuer.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/Message Enqueuer/Message Enqueuer.lvclass"/>
+				<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/Message Queue/Message Queue.lvclass"/>
+				<Item Name="Message Dequeuer.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/Message Dequeuer/Message Dequeuer.lvclass"/>
+				<Item Name="Init Actor Queues FOR TESTING ONLY.vi" Type="VI" URL="../../../Actor Framework.lvlibp/Actor/Init Actor Queues FOR TESTING ONLY.vi"/>
+				<Item Name="Actor.lvclass" Type="LVClass" URL="../../../Actor Framework.lvlibp/Actor/Actor.lvclass"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
-			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Packed Library" Type="Packed Library">
@@ -52,7 +44,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Packages/Sources/PPLs</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{916AF5E6-FB48-4D87-88E3-08DA2435111C}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">AF_Messages-PPL.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Packages/Sources/PPLs/NI_AB_PROJECTNAME.lvlibp</Property>
