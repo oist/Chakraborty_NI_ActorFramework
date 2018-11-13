@@ -5,4 +5,4 @@ AF_Messages-PPL.lvlibp : $(call ADD_SOURCES,AF_Messages-PPL.mk) \
 	$(info Target is $@)
 #	$(info Dependencies are $^)
 	$(info 'Making' $@ from source)
-	$(TOUCH) $(PPLDIR)/$@
+	$(BUILD_PPL)
