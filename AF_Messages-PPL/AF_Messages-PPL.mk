@@ -2,7 +2,5 @@
 AF_Messages-PPL.lvlibp : $(call ADD_SOURCES,AF_Messages-PPL.mk) \
 		Actor\ Framework.lvlibp \
 		| $(PPLDIR)
-	$(info Target is $@)
-#	$(info Dependencies are $^)
-	$(info 'Making' $@ from source)
+	$(TARGET_INFO)
 	$(BUILD_PPL)
