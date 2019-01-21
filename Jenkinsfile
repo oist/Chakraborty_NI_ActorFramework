@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('Sanity Check') {
       steps {
-        sh 'ls -al > dirlist.txt'
-        sh 'cat dirlist.txt'
+        bat 'ubuntu -c "ls -al > dirlist.txt" '
+        bat 'ubuntu -c "cat dirlist.txt" '
       }
     }
     stage('Build') {
