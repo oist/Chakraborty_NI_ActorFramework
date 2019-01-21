@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        lock(resource: 'LabVIEW', label: 'LabVIEW', quantity: 1) {
+        lock(resource: 'LabVIEW', quantity: 1) {
           sh 'make Actor\\ Framework.lvlibp AF_Messages-PPL.lvlibp'
         }
 
