@@ -3,6 +3,8 @@ pipeline {
   stages {
     stage('Sanity Check') {
       steps {
+        sh "echo 'Hello World'"
+        sh "echo $PATH"
         sh "ls -al > dirlist.txt"
         sh "cat dirlist.txt"
       }
