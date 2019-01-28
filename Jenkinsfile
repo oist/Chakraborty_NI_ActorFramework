@@ -13,6 +13,7 @@ pipeline {
       steps {
         lock(resource: 'LabVIEW', quantity: 1) {
           // sh 'make Actor\\ Framework.lvlibp AF_Messages-PPL.lvlibp'
+          sh "touch dummy-Actor\ Framework.lvlibp dummy-AF_Messages-PPL.lvlibp"
         }
 
       }
